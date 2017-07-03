@@ -1,0 +1,56 @@
+#######################################################################
+## copy this file to config.local.properties and override the        ##
+## configurations according to your needs                            ##
+#######################################################################
+#appUrl=http://10.3.11.26:8080/
+appUrl=https://develop.kinnser.net/
+sourcePath=C:\\ATF\\ATF\\src\\
+reportsPath=C:\\jenkins\\workspace\\ATF\\ATF\\target\\surefire-reports\\
+screenShotsPath=C:\\jenkins\\workspace\\ATF\\ATF\\target\\surefire-reports\\screenshots\\
+downloads=C:\\Downloads\\
+driversPath=C:\\sdrivers\\
+
+
+# Database connection info
+dbname=Develop
+reportdbname=DevelopReport
+
+# Default Browser Credentials
+browserType=chrome
+    
+# AM Default Browser and Application Credentials
+appUserName=uber.user.bill2
+appPassword=mma4uber
+
+# AM BM1 Application Credentials
+appUserNameBM1=uber.user
+appPasswordBM1=mma4uber
+
+# Default PB Clinic Application Credentials
+appUserNamePB=uber.user.pb
+appPasswordPB=mma4uber
+    
+# Default KH Application Credentials
+appUserNameKH=uber.user.hm
+appPasswordKH=mma4uber
+
+#Default PTG Application Credentials
+appUserNamePTG=ptg.trainer
+appPasswordPTG=mma4uber
+
+# Default Call Track Application Credentials
+appUserNameCalltrack=KQA.Auto
+appPasswordCalltrack=Aut0m@teIt
+    
+# Default reports file name configuration
+testCycle=REG
+testEnvironment=Develop
+
+# Path to EDI files
+appUrlIP=http://10.3.11.26:8080/
+vsSharePath=D:\\workspace\\vsShare\\
+ediRestagingPath=CH0001776\\restaging\\
+
+# Base REST path for service health check
+basehealthcheckuri=https://staging.kinnser.net/ksi/
+TestToken=bcd21a6f-ca41-4c65-ae8c-fc47a9fe7f24
