@@ -16,8 +16,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import DataSource.GlobalData;
-
 public class Driver {
 		
 	protected WebDriver myDriver;
@@ -254,7 +252,6 @@ public class Driver {
 	}
 
 	public void teardownTest() {
-		GlobalData.resetGlobalData();
 		if (myDriver != null){
 			myDriver.quit();
 		}
